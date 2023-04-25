@@ -10,7 +10,7 @@ The Visual Computer 38, no. 8 (2022): 2771-2783.
 ## Degenerative disc disease diagnostic system
 
 ### Sample MR image with degenerative and normal discs
-![Alt text](/Architecture/Sample Mid-sagittal MR image.png)
+![Alt text](/Architecture/Mid_sagittal_MR_image.png)
 
 ### Architecture Diagram
 ![Alt text](/Architecture/archi.png)
