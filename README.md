@@ -14,3 +14,21 @@ The Visual Computer 38, no. 8 (2022): 2771-2783.
 
 ### Architecture Diagram
 ![Alt text](/Architecture/archi.png)
+
+### Intervertebral disc segmentation Architecture Diagram
+![Alt text](/Architecture/IVD_segmentation_architecture.png)
+
+### Intervertebral disc segmentation Process output
+![Alt text](/Architecture/segmentation_process.png)
+
+### Finding Tilt angle
+![Alt text](/Architecture/tiltangle.png)
+
+
+### Patient based analysis output
+![Alt text](/Architecture/patient_based_analysis.png)
+
+
+
+
+
