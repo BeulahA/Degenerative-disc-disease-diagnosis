@@ -1,0 +1,85 @@
+|==================================================================================================================================================|
+| Iter | Eval   | Objective   | Objective   | BestSoFar   | BestSoFar   | BoxConstraint|  KernelScale | KernelFuncti-| PolynomialOr-|  Standardize |
+|      | result |             | runtime     | (observed)  | (estim.)    |              |              | on           | der          |              |
+|==================================================================================================================================================|
+|    1 | Best   |     0.15751 |      7.3792 |     0.15751 |     0.15751 |      0.34988 |            - |       linear |            - |        false |
+|    2 | Accept |     0.42125 |      3.8121 |     0.15751 |     0.19397 |      0.18668 |       5.6951 |     gaussian |            - |         true |
+|    3 | Accept |     0.18681 |      47.546 |     0.15751 |     0.16436 |     0.010266 |            - |   polynomial |            2 |         true |
+|    4 | Accept |     0.28022 |      41.142 |     0.15751 |     0.16369 |       1.5789 |            - |   polynomial |            3 |         true |
+|    5 | Accept |     0.15751 |      1.9159 |     0.15751 |     0.15752 |     0.014532 |            - |       linear |            - |        false |
+|    6 | Accept |     0.15934 |      2.2205 |     0.15751 |     0.15751 |     0.016025 |            - |       linear |            - |         true |
+|    7 | Accept |     0.45421 |        39.9 |     0.15751 |     0.15752 |     0.049837 |            - |   polynomial |            2 |        false |
+|    8 | Accept |     0.42125 |      2.7918 |     0.15751 |     0.15752 |       583.69 |    0.0010003 |     gaussian |            - |        false |
+|    9 | Accept |     0.42125 |      3.3607 |     0.15751 |     0.15752 |      0.24643 |    0.0010071 |     gaussian |            - |         true |
+|   10 | Error  |         NaN |     0.33879 |     0.15751 |     0.15752 |       993.94 |            - |   polynomial |            4 |        false |
+|   11 | Accept |     0.32051 |      4.1229 |     0.15751 |     0.15752 |    0.0010028 |            - |   polynomial |            4 |         true |
+|   12 | Accept |     0.15751 |      1.4977 |     0.15751 |     0.15751 |       999.66 |            - |       linear |            - |        false |
+|   13 | Best   |     0.13004 |      1.5524 |     0.13004 |     0.15096 |     0.001002 |            - |       linear |            - |        false |
+|   14 | Accept |     0.40842 |      40.343 |     0.13004 |     0.14919 |       985.05 |            - |   polynomial |            3 |        false |
+|   15 | Accept |     0.13004 |      1.3679 |     0.13004 |     0.14103 |    0.0010014 |            - |       linear |            - |        false |
+|   16 | Accept |     0.13004 |      1.4667 |     0.13004 |      0.1301 |    0.0010042 |            - |       linear |            - |        false |
+|   17 | Accept |     0.15934 |      2.2295 |     0.13004 |     0.13847 |        999.5 |            - |       linear |            - |         true |
+|   18 | Accept |     0.18681 |      45.015 |     0.13004 |     0.13898 |       997.91 |            - |   polynomial |            2 |         true |
+|   19 | Accept |     0.32051 |      3.1071 |     0.13004 |     0.14397 |        981.2 |            - |   polynomial |            4 |         true |
+|   20 | Best   |     0.12821 |      1.2304 |     0.12821 |     0.13984 |       259.59 |       0.0227 |     gaussian |            - |        false |
+|==================================================================================================================================================|
+| Iter | Eval   | Objective   | Objective   | BestSoFar   | BestSoFar   | BoxConstraint|  KernelScale | KernelFuncti-| PolynomialOr-|  Standardize |
+|      | result |             | runtime     | (observed)  | (estim.)    |              |              | on           | der          |              |
+|==================================================================================================================================================|
+|   21 | Accept |     0.42125 |      2.1532 |     0.12821 |      0.1399 |     0.001035 |       70.583 |     gaussian |            - |        false |
+|   22 | Accept |     0.14103 |      1.3306 |     0.12821 |     0.13975 |       73.255 |       849.04 |     gaussian |            - |        false |
+|   23 | Accept |     0.42125 |       2.748 |     0.12821 |     0.12824 |    0.0020258 |        998.1 |     gaussian |            - |         true |
+|   24 | Accept |     0.14469 |      1.2462 |     0.12821 |     0.13963 |       916.57 |       678.47 |     gaussian |            - |        false |
+|   25 | Accept |     0.42125 |      2.2853 |     0.12821 |     0.12845 |    0.0011964 |      0.20807 |     gaussian |            - |        false |
+|   26 | Accept |     0.15934 |      1.9192 |     0.12821 |      0.1314 |       3.9966 |            - |       linear |            - |         true |
+|   27 | Accept |     0.42125 |      2.1127 |     0.12821 |     0.12857 |    0.0061958 |       998.97 |     gaussian |            - |        false |
+|   28 | Accept |     0.15751 |      1.6752 |     0.12821 |     0.12862 |       27.546 |            - |       linear |            - |        false |
+|   29 | Accept |     0.14469 |      1.8594 |     0.12821 |     0.12865 |    0.0010037 |            - |       linear |            - |         true |
+|   30 | Accept |     0.18681 |      45.828 |     0.12821 |     0.12867 |        3.562 |            - |   polynomial |            2 |         true |
+
+__________________________________________________________
+Optimization completed.
+MaxObjectiveEvaluations of 30 reached.
+Total function evaluations: 30
+Total elapsed time: 408.6427 seconds.
+Total objective function evaluation time: 315.4971
+
+Best observed feasible point:
+    BoxConstraint    KernelScale    KernelFunction    PolynomialOrder    Standardize
+    _____________    ___________    ______________    _______________    ___________
+
+       259.59          0.0227         gaussian             NaN             false   
+
+Observed objective function value = 0.12821
+Estimated objective function value = 0.12867
+Function evaluation time = 1.2304
+
+Best estimated feasible point (according to models):
+    BoxConstraint    KernelScale    KernelFunction    PolynomialOrder    Standardize
+    _____________    ___________    ______________    _______________    ___________
+
+       259.59          0.0227         gaussian             NaN             false   
+
+Estimated objective function value = 0.12867
+Estimated function evaluation time = 1.672
+
+
+svm1 = 
+
+  ClassificationSVM
+                         ResponseName: 'Y'
+                CategoricalPredictors: []
+                           ClassNames: [0 1]
+                       ScoreTransform: 'none'
+                      NumObservations: 546
+    HyperparameterOptimizationResults: [1×1 BayesianOptimization]
+                                Alpha: [223×1 double]
+                                 Bias: 4.3612
+                     KernelParameters: [1×1 struct]
+                       BoxConstraints: [546×1 double]
+                      ConvergenceInfo: [1×1 struct]
+                      IsSupportVector: [546×1 logical]
+                               Solver: 'SMO'
+
+
+  Properties, Methods
